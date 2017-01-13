@@ -1,0 +1,50 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="parallax filter-black">
+  <div class="parallax-image">
+    <img src="static/img/header2.jpg">
+  </div>
+  <div class="small-info">
+    <h2>Bienvenue sur le site du Docteur Hubert Massot</h2>
+    <h3>Retrouvez toutes les informations sur le cabinet et ses activités</h3>
+  </div>
+</div>
+
+<div class="main presentation">
+  <div class="section">
+    <div class="container">
+      <h2>Le cabinet</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Les consultations sont assurées au Cabinet médical</p>
+          <p>5 rue de la lionne</p>
+          <p>45000 ORLEANS</p>
+          <p>Tél : 02 38 53 37 57</p>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-background">
+            <div class="map" id="map"></div>
+          </div>
+          <!-- end card -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-javascript">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-container-max" rel="tooltip" title="" data-placement="left" onclick="showModal(this)" data-target="#javascript" data-original-title="View all Javascript Components">
+            <img src="static/img/chirurgien.jpg" width="600px">
+          </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <h2>Chirurgie et Esthétisme</h2>
+          <p>Something to write here...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
